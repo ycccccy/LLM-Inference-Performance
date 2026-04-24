@@ -14,7 +14,7 @@
 | 🧠 CPU | Intel Xeon W-3323 (12核/24线程) | 6核 Cortex-A78AE @ 1.7GHz |
 | 💾 存储 | - | SD卡 (UHS-I) |
 | 🔧 CUDA | 12.1 / 12.2 | - |
-| 🛠️ 推理框架 | TensorRT-LLM / Triton Server | llama.cpp (GGUF) |
+| 🛠️ 推理框架 | TensorRT-LLM / llama.cpp (GGUF) | llama.cpp (GGUF) |
 
 
 > ⚠️ **注意**：Nano 加载模型速度较慢，首次加载需等待数分钟~数十分钟（应该是sd卡加载的问题）
