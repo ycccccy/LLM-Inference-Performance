@@ -43,7 +43,6 @@
 | **DeepSeek-R1-Distill-Qwen-7B** | 🟢 | RTX 3090 Ti | TensorRT-LLM | Engine | INT8 | 8.2 GB | ~106 |
 | **DeepSeek-R1-Distill-Qwen-7B** | 🟢 | RTX 3090 Ti | llama.cpp | GGUF | INT8 (Q8_0) | 8.1 GB | ~106 |
 | **DeepSeek-R1-Distill-Qwen-7B** | 🖥️ | Intel Xeon W-3323 | llama.cpp | GGUF | INT8 (Q8_0) | 8.1 GB | ~12 |
-| **DeepSeek-R1-Distill-Qwen-7B** | 🟢 | RTX 3090 Ti | llama.cpp | GGUF | INT8 (Q8_0) | 8.1 GB | ~106 |
 | **DeepSeek-R1-Distill-Qwen-7B** | 🟢 | RTX 3090 Ti | llama.cpp | GGUF | Q4_K_M | 4.7 GB | ~158 |
 | **DeepSeek-R1-Distill-Qwen-7B** | 🖥️ | Intel Xeon W-3323 | llama.cpp | GGUF | Q4_K_M | 4.7 GB | ~17 |
 | - |- |- |- |- |-| - |-|
