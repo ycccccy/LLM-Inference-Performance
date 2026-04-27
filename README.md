@@ -40,8 +40,8 @@
 | **Meta-Llama-3-8B-Instruct** | 🟢 | RTX 3090 Ti | Triton Server | Engine | INT8 | 8.5 GB | ~100.8 |
 | - |- |- |- |- |-| - |-|
 | **DeepSeek-R1-Distill-Qwen-7B** | 🟢 | RTX 3090 Ti | HuggingFace | SafeTensors | FP16 | 14.0 GB | 46.45 |
-| **DeepSeek-R1-Distill-Qwen-7B** | 🟢 | RTX 3090 Ti | TensorRT-LLM | Engine | INT8 | 8.2 GB | ~106 |
-| **DeepSeek-R1-Distill-Qwen-7B** | 🟢 | RTX 3090 Ti | llama.cpp | GGUF | INT8 (Q8_0) | 8.1 GB | ~106 |
+| **DeepSeek-R1-Distill-Qwen-7B** | 🟢 | RTX 3090 Ti | TensorRT-LLM | Engine | INT8 | 8.2 GB | ~105.9 |
+| **DeepSeek-R1-Distill-Qwen-7B** | 🟢 | RTX 3090 Ti | llama.cpp | GGUF | INT8 (Q8_0) | 8.1 GB | ~106.2 |
 | **DeepSeek-R1-Distill-Qwen-7B** | 🖥️ | Intel Xeon W-3323 | llama.cpp | GGUF | INT8 (Q8_0) | 8.1 GB | ~12 |
 | **DeepSeek-R1-Distill-Qwen-7B** | 🟢 | RTX 3090 Ti | llama.cpp | GGUF | Q4_K_M | 4.7 GB | ~158 |
 | **DeepSeek-R1-Distill-Qwen-7B** | 🖥️ | Intel Xeon W-3323 | llama.cpp | GGUF | Q4_K_M | 4.7 GB | ~17 |
@@ -51,6 +51,19 @@
 | **Qwen2-VL-2B-Instruct** | 📱 | Orin Nano | llama.cpp | GGUF | INT4 | 1.0 GB | ~11 |
 
 ---
+
+
+
+
+| 模型 | 部署平台 | GPU/设备 | 框架 | 模型格式 | 量化 | 模型大小 | Token 速度 (tokens/s) |
+| --- | ------ | ---------------------------- | ------------- | ----------- | ------------ | ------- | ---------------- |
+| **DeepSeek-R1-Distill-Qwen-7B** | 🟢 | RTX 3090 Ti | llama.cpp | GGUF | Q4_K_M | 4.7 GB | ~158 |
+| **DeepSeek-R1-Distill-Qwen-7B** | 🖥️ | Intel Xeon W-3323 | llama.cpp | GGUF | Q4_K_M | 4.7 GB | ~17 |
+| **DeepSeek-R1-Distill-Qwen-7B** | 📱 | Orin Nano | llama.cpp | GGUF | Q4_K_M | 4.7 GB | ~2.2 |
+
+
+
+
 
 ## 📈 性能差距分析
 
